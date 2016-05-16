@@ -78,5 +78,4 @@ Just remove the `%` from the font you wish to use.
 For more fonts go to: http://www.tug.dk/FontCatalogue/sansseriffonts.html
 
 ##Example
-An example showing how the file looks after converting to PDF:  
-https://dl.dropboxusercontent.com/u/63835854/School/readme.md.pdf
+An example showing how the file looks after converting to PDF is added to the repository with the name `readme.md.pdf`.
