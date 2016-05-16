@@ -40,19 +40,23 @@ Go to `Tools > Build System > New Build System ...`
 
 This opens a file, replace the content with:
 
-`{`  
-`    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"",`  
-`    "selector": "text.html.markdown",`  
-`    "path": "/usr/texbin:$PATH"`  
-`}`
+```json
+{  
+    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"",  
+    "selector": "text.html.markdown",  
+    "path": "/usr/texbin:$PATH"  
+}
+```
 
 If you're not on a Mac:
 
-`{`  
-`    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\"",`  
-`    "selector": "text.html.markdown",`  
-`    "path": "/usr/texbin:$PATH"`  
-`}`
+```json
+{  
+    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\"",
+    "selector": "text.html.markdown",
+    "path": "/usr/texbin:$PATH"
+}
+```
 
 Save your new custom build to `Sublime Text 3/Packages/User` and name it as you desire.  
 Now after saving go back to `Tools > Build System` and select your new build.  
@@ -61,11 +65,13 @@ Now whenever you are writing your markdown and wish to convert it to PDF just pr
 ###Custom template (optional)
 Grab your custom LaTeX template and edit your custom build that you made in the previous step. 
 
-`{`  
-`    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"" --template=\"/Users/Niels/.pandoc/default.latex\",`  
-`    "selector": "text.html.markdown",`  
-`    "path": "/usr/texbin:$PATH"`  
-`}`
+```json
+{  
+    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"" --template=\"/Users/Niels/.pandoc/default.latex\",  
+    "selector": "text.html.markdown",
+    "path": "/usr/texbin:$PATH"
+}
+```
 
 Where 'Niels' is your Username of your Macbook and 'default.latex' is the name of your LaTeX template.  
 I grabbed my template from:  
@@ -74,13 +80,15 @@ https://github.com/jgm/pandoc-templates/blob/master/default.latex
 After the first line starting with `\documentclass`, you can start writing your custom packages / fonts as you desire.
 Here's an example of what I added on line 2 to start off with:
 
-`%%%%%%%%%%% HELVETICA %%%%%%%%%%%%%%%`  
-`%\usepackage[scaled=0.86]{helvet}`  
-`%\renewcommand\familydefault{\sfdefault}`  
-`%\usepackage[T1]{fontenc}`  
-`%%%%%%%%%%% OPEN SANS %%%%%%%%%%%%%%%`  
-`%\usepackage[default,osfigures,scale=0.95]{opensans}`  
-`%\usepackage[T1]{fontenc}`  
+```
+%%%%%%%%%%% HELVETICA %%%%%%%%%%%%%%%  
+%\usepackage[scaled=0.86]{helvet}
+%\renewcommand\familydefault{\sfdefault} 
+%\usepackage[T1]{fontenc}
+%%%%%%%%%%% OPEN SANS %%%%%%%%%%%%%%%
+%\usepackage[default,osfigures,scale=0.95]{opensans}
+%\usepackage[T1]{fontenc}
+```
 
 Just remove the `%` from the font you wish to use.
 For more fonts go to: http://www.tug.dk/FontCatalogue/sansseriffonts.html
