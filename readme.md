@@ -9,7 +9,7 @@ So I had to look for a solution where I could make documentation or reports for 
 > Sublime Text is a sophisticated text editor for code, markup and prose.
 > You'll love the slick user interface, extraordinary features and amazing performance.
 
-First of all, before we start all of this, you need to have Sublime Text installed.  
+First of all, before we start all of this, you will need to have Sublime Text installed.  
 So go ahead and go download Sublime Text (3) from: https://www.sublimetext.com/3
 
 ###Sublime Package Control (optional)
