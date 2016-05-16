@@ -60,8 +60,7 @@ Grab your custom LaTeX template and edit your custom build that you made in the 
 `}`
 
 Where 'Niels' is your Username of your Macbook and 'default.latex' is the name of your LaTeX template.  
-I grabbed my template from: 
-
+I grabbed my template from:  
 https://github.com/jgm/pandoc-templates/blob/master/default.latex  
 
 After the first line starting with `\documentclass`, you can start writing your custom packages / fonts as you desire.
@@ -79,4 +78,5 @@ Just remove the `%` from the font you wish to use.
 For more fonts go to: http://www.tug.dk/FontCatalogue/sansseriffonts.html
 
 ##Example
-An example showing how the file looks after converting to PDF: https://dl.dropboxusercontent.com/u/63835854/School/readme.md.pdf
+An example showing how the file looks after converting to PDF:  
+https://dl.dropboxusercontent.com/u/63835854/School/readme.md.pdf
