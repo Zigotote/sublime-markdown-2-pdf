@@ -2,7 +2,7 @@
 ##Sublime setup to quickly convert Markdown files to PDF through LateX with Pandoc
 ###Why
 As a fairly new OSX user with my fancy new Macbook I came across a fair amount of issues that held me from optimizing my workflow.
-Since I have been using Windows for literaly forever, not having the default Microsoft Office Word which I was used to on my Macbook was an issue.
+Since I have been using Windows for literaly forever, not having the default Microsoft Office Word which I was used to on my Desktop was an issue.
 So I had to look for a solution where I could make documentation or reports for school without having to do a lot of effort.
 
 ###Sublime
