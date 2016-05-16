@@ -60,9 +60,11 @@ Grab your custom LaTeX template and edit your custom build that you made in the 
 `}`
 
 Where 'Niels' is your Username of your Macbook and 'default.latex' is the name of your LaTeX template.  
-I grabbed my template from https://github.com/jgm/pandoc-templates/blob/master/default.latex  
-After the first line starting with `\documentclass`, you can start writing your custom packages / fonts as you desire.
+I grabbed my template from: 
 
+https://github.com/jgm/pandoc-templates/blob/master/default.latex  
+
+After the first line starting with `\documentclass`, you can start writing your custom packages / fonts as you desire.
 Here's an example of what I added on line 2 to start off with:
 
 `%%%%%%%%%%% HELVETICA %%%%%%%%%%%%%%%`  
