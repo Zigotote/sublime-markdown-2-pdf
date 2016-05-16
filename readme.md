@@ -46,6 +46,14 @@ This opens a file, replace the content with:
 `    "path": "/usr/texbin:$PATH"`  
 `}`
 
+If you're not on a Mac, things will look a bit different:
+
+`{`  
+`    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\"",`  
+`    "selector": "text.html.markdown",`  
+`    "path": "/usr/texbin:$PATH"`  
+`}`
+
 Save your new custom build to `Sublime Text 3/Packages/User` and name it as you desire.  
 Now after saving go back to `Tools > Build System` and select your new build.  
 Now whenever you are writing your markdown and wish to convert it to PDF just press `cmd+b` or `f7` and it will convert it on the spot.
