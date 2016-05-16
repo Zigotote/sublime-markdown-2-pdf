@@ -40,7 +40,7 @@ Go to `Tools > Build System > New Build System ...`
 
 This opens a file, replace the content with:
 
-```json
+```
 {  
     "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"",  
     "selector": "text.html.markdown",  
