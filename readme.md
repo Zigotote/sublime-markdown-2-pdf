@@ -50,7 +50,7 @@ This opens a file, replace the content with:
 
 If you're not on a Mac:
 
-```json
+```
 {  
     "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\"",
     "selector": "text.html.markdown",
@@ -65,7 +65,7 @@ Now whenever you are writing your markdown and wish to convert it to PDF just pr
 ###Custom template (optional)
 Grab your custom LaTeX template and edit your custom build that you made in the previous step. 
 
-```json
+```
 {  
     "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"" --template=\"/Users/Niels/.pandoc/default.latex\",  
     "selector": "text.html.markdown",
