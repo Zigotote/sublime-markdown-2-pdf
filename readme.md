@@ -30,6 +30,10 @@ To use simply press `cmd+shift+p` again and type in Markdown, select Markdown Pr
 You download Pandoc from here: http://pandoc.org/installing.html  
 You will need Pandoc to convert your Markdown files to PDF files.
 
+Heck, you might even want to try and search for Pandoc in the Sublime Package Control and install the plugin.  
+This should allow you to convert your files as well. 
+Since this wasn't working for me at all and since I really couldn't get my head around it, I decided to make a custom build option for Sublime.
+
 ###Custom Sublime Build
 First off we need to create a new Sublime-Build.
 Go to `Tools > Build System > New Build System ...`
@@ -44,7 +48,7 @@ This opens a file, replace the content with:
 
 Save your new custom build to `Sublime Text 3/Packages/User` and name it as you desire.  
 Now after saving go back to `Tools > Build System` and select your new build.  
-Now whenever you are writing your markdown and wish to convert it to PDF just press `cmd+b` and it will convert it on the spot.
+Now whenever you are writing your markdown and wish to convert it to PDF just press `cmd+b` or `f7` and it will convert it on the spot.
 
 ###Custom template (optional)
 Grab your custom LaTeX template and edit your custom build that you made in the previous step. 
