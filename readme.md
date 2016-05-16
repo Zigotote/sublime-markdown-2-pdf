@@ -46,7 +46,7 @@ This opens a file, replace the content with:
 `    "path": "/usr/texbin:$PATH"`  
 `}`
 
-If you're not on a Mac, things will look a bit different:
+If you're not on a Mac:
 
 `{`  
 `    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\"",`  
