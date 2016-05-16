@@ -75,3 +75,6 @@ Here's an example of what I added on line 2 to start off with:
 
 Just remove the `%` from the font you wish to use.
 For more fonts go to: http://www.tug.dk/FontCatalogue/sansseriffonts.html
+
+##Example
+An example showing how the file looks after converting to PDF: https://dl.dropboxusercontent.com/u/63835854/School/readme.md.pdf
