@@ -62,6 +62,10 @@ Save your new custom build to `Sublime Text 3/Packages/User` and name it as you 
 Now after saving go back to `Tools > Build System` and select your new build.  
 Now whenever you are writing your markdown and wish to convert it to PDF just press `cmd+b` or `f7` and it will convert it on the spot.
 
+PS: If you wish to edit your custom build, you can find your build at this location:  
+`~/Library/Application Support/Sublime Text 3/Packages/User/`  
+Or just use this command: subl ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/YOURBUILDNAME.sublime-build
+
 ###Custom template (optional)
 Grab your custom LaTeX template and edit your custom build that you made in the previous step. 
 
