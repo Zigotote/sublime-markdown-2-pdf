@@ -64,14 +64,14 @@ Now whenever you are writing your markdown and wish to convert it to PDF just pr
 
 PS: If you wish to edit your custom build, you can find your build at this location:  
 `~/Library/Application Support/Sublime Text 3/Packages/User/`  
-Or just use this command: subl ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/YOURBUILDNAME.sublime-build
 
 ###Custom template (optional)
 Grab your custom LaTeX template and edit your custom build that you made in the previous step. 
 
 ```
 {  
-    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"" --template=\"/Users/Niels/.pandoc/default.latex\",  
+    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\
+    "" --template=\"/Users/Niels/.pandoc/default.latex\",  
     "selector": "text.html.markdown",
     "path": "/usr/texbin:$PATH"
 }
@@ -85,13 +85,23 @@ After the first line starting with `\documentclass`, you can start writing your 
 Here's an example of what I added on line 2 to start off with:
 
 ```
-%%%%%%%%%%% HELVETICA %%%%%%%%%%%%%%%  
+%%%%%%%%%%% HELVETICA %%%%%%%%%%%%%%%
 %\usepackage[scaled=0.86]{helvet}
 %\renewcommand\familydefault{\sfdefault} 
 %\usepackage[T1]{fontenc}
+
 %%%%%%%%%%% OPEN SANS %%%%%%%%%%%%%%%
-%\usepackage[default,osfigures,scale=0.95]{opensans}
+%\usepackage[default,osfigures,scale=0.8]{opensans}
 %\usepackage[T1]{fontenc}
+
+%%%%%%%%%%% QUATTROCENTO %%%%%%%%%%%%%%%
+%\usepackage[sfdefault]{quattrocento}
+%\usepackage[T1]{fontenc}
+
+%%%%%%%%%%% LAYOUT %%%%%%%%%%%%%%%
+\usepackage[english]{babel}
+\usepackage{blindtext, fontenc, setspace}
+\usepackage[margin=2.5cm]{geometry}
 ```
 
 Just remove the `%` from the font you wish to use.
