@@ -111,4 +111,4 @@ For more fonts go to: http://www.tug.dk/FontCatalogue/sansseriffonts.html
 An example showing how the file looks after converting to PDF is added to the repository with the name `readme.md.pdf`.
 
 ##Cheatsheet
-[Basic Markdown Cheat sheet](https://github.com/segersniels/cheat-sheet-mix/blob/master/markdown.md)
+[Basic Markdown cheatsheet](https://github.com/segersniels/cheat-sheet-mix/blob/master/markdown.md)
