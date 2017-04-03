@@ -22,7 +22,7 @@ After installing Sublime Package Control you press `cmd+shift+p`.
 Search for Markdown Preview and click it, this will install a handy tool for you to preview your markdown files in your browser without much effort.  
 To use simply press `cmd+shift+p` again and type in Markdown, select Markdown Preview and select browser.
 
-###Pandoc
+###Pandoc 
 > If you need to convert files from one markup format into another, pandoc is your swiss-army knife. 
 > Pandoc can convert documents in markdown, reStructuredText, textile, HTML, DocBook, LaTeX, MediaWiki markup, TWiki markup, 
 > OPML, Emacs Org-Mode, Txt2Tags, Microsoft Word docx, LibreOffice ODT, EPUB, or Haddock markup.
