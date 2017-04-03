@@ -34,7 +34,7 @@ Heck, you might even want to try and search for Pandoc in the Sublime Package Co
 This should allow you to convert your files as well. 
 Since this wasn't working for me at all and since I really couldn't get my head around it, I decided to make a custom build option for Sublime.
 
-###Custom Sublime Build
+### Custom Sublime Build
 First off we need to create a new Sublime-Build.
 Go to `Tools > Build System > New Build System ...`
 
