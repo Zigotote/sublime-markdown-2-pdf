@@ -65,7 +65,7 @@ Now whenever you are writing your markdown and wish to convert it to PDF just pr
 PS: If you wish to edit your custom build, you can find your build at this location:  
 `~/Library/Application Support/Sublime Text 3/Packages/User/`  
 
-###Custom template (optional)
+### Custom template (optional)
 Grab your custom LaTeX template and edit your custom build that you made in the previous step. 
 
 ```
