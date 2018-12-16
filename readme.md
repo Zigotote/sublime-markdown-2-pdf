@@ -70,8 +70,7 @@ Grab your custom LaTeX template and edit your custom build that you made in the 
 
 ```
 {  
-    "shell_cmd": "pandoc -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\
-    "" --template=\"/Users/User/.pandoc/default.latex\",  
+    "shell_cmd": "pandoc --template=\"/Users/User/.pandoc/default.latex\" -o \"$file.pdf\" \"$file\" && open -a Preview \"$file.pdf\"" ,  
     "selector": "text.html.markdown",
     "path": "/usr/texbin:$PATH"
 }
